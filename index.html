@@ -1,12 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mim</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--CDN ICONS font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <!--Perfil-->
+      <div class="cardperfil">
+        <figure>
+          <img class="perfil" src="img/perfil.jpg" alt="Minha Foto" />
+        </figure>
+        <h1>Kleber Matos</h1>
+        <p>Dev Front-End</p>
+
+        <nav class="redesociais">
+          <ul>
+            <li>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a target="_blank" href=""
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--Sobre Mim-->
+      <div class="sobremim">
+        <h1>Sobre mim</h1>
+        <p>
+          Meu Nome e Kleber, tenho 21 anos, sou facilitador técnico do Vai na
+          Web, amo esportes radicais
+        </p>
+      </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <section class="habilidade">
+        <div>
+          <h2>ESTOU ESTUDANDO</h2>
+          <figure>
+            <img src="img/html.svg" alt="HTML" />
+            <img src="img/css.svg" alt="CSS" />
+            <img src="img/git.svg" alt="GIT" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="campoform">
+        <div>
+          <h2>ENTRE EM CONTATO</h2>
+          <form action="">
+            <label for="name">NOME:</label>
+            <input type="text" id="name" />
+
+            <label for="assunto">ASSUNTO</label>
+
+            <!--INFORMAÇÃO-->
+            <input
+              id="informacao"
+              name="assunto"
+              type="radio"
+              value="informacao"
+            />
+            <label for="informacao">INFORMAÇÃO</label>
+
+            <!--INFORMAÇÃO-->
+            <input id="trabalho" name="assunto" type="radio" value="trabalho" />
+            <label for="trabalho">TRABALHO</label>
+
+            <!--MENTORIA-->
+            <input id="mentoria" name="assunto" type="radio" value="mentoria" />
+            <label for="mentoria">MENTORIA</label>
+
+            <label for="">TEXTO</label>
+            <input type="text" />
+            <button type="submit">enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer>
+      <h2>Feito por: Kleber Matos</h2>
+      <p>Termos e suporte</p>
+    </footer>
+  </body>
 </html>
