@@ -12,30 +12,33 @@
   --verde: rgb(127, 148, 126);
 }
 
-.perfil {
-  width: 30%;
-  height: 50%;
-}
-
-i {
-  color: black;
-  font-size: 2rem;
-}
-
+/*HEADER*/
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  height: 100vh;
 }
 
 .cardperfil {
-  padding-top: 3rem;
   text-align: center;
+  padding-top: 3rem;
+  width: 40%;
 }
 
-.cardperfil h1,
-p,
-nav {
-  padding-bottom: 2rem;
+.boxperfil p {
+  padding-bottom: 1rem;
+}
+
+.perfil {
+  width: 260px;
+  padding-bottom: 1rem;
+}
+
+.boxperfil {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .redesociais {
@@ -44,49 +47,56 @@ nav {
 }
 
 .redesociais ul {
-  width: 13rem;
   display: flex;
   justify-content: space-around;
-}
-li {
   list-style: none;
+  width: 50%;
 }
 
+.redesociais i {
+  font-size: 2rem;
+  color: black;
+}
+
+
 .sobremim {
+  width: 40%;
+  /* padding: 2rem; */
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   background-color: var(--cinza);
 }
 
 .sobremim h1 {
-  padding-bottom: 1rem;
+  font-size: 4rem;
 }
+
 
 /*MAIN*/
 
 .habilidade {
-  background-color: var(--bege);
-  height: 40vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  background-color: var(--bege);
+  height: 90vh;
+}
+
+.habilidade h2 {
+  font-size: 2rem;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .habilidade img {
-  width: 13rem;
-  height: 15rem;
+  padding: 2rem;
+  width: 200px;
+  height: 240px;
   background-color: var(--verde);
   border-radius: 10px;
-  padding: 2rem;
   margin: 1rem;
-}
-
-.campoform {
-  background-color: var(--verde);
-  height: 40vw;
-  text-align: center;
 }
