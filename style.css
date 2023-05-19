@@ -164,6 +164,11 @@ button {
   color: white;
   font-size: 23px;
   font-weight: 900;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
 }
 
 /*FOOTER*/
